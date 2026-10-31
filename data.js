@@ -211,7 +211,8 @@ self.TRIP = {
       en: "Sydney Airport T1 International Terminal",
       type: "공항",
       desc: "국제선 터미널이에요. 지하의 공항 기차(Airport Link)를 타면 그린스퀘어역까지 세 정거장(국내선 → 마스콧 → 그린스퀘어), 약 10분이에요. 공항역은 이용료가 따로 붙어서 셋이면 우버와 값이 비슷할 수 있어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sydney_Airport_Terminal_1a.jpg/960px-Sydney_Airport_Terminal_1a.jpg",
+      credit: "사진: MDRX, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "circularquay",
@@ -220,7 +221,8 @@ self.TRIP = {
       short: "페리 터미널. 오페라하우스와 하버브리지 사이예요.",
       type: "명소",
       desc: "페리가 드나드는 시드니 항구의 중심이에요. 오페라하우스와 하버브리지가 양옆에 있어요. 점심은 근처에서 호주식 미트파이나 피시앤칩스로 가볍게 먹어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circular_Quay_Ferry_Terminal_from_Sydney_Ferry_Supply_Sydney_Harbour_P1350158.jpg/960px-Circular_Quay_Ferry_Terminal_from_Sydney_Ferry_Supply_Sydney_Harbour_P1350158.jpg",
+      credit: "사진: John Robert McPherson, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "rocks",
@@ -229,7 +231,8 @@ self.TRIP = {
       short: "시드니에서 가장 오래된 동네, 사암 골목",
       type: "명소",
       desc: "1788년 영국 첫 이주민이 자리 잡은 동네예요. 사암으로 지은 옛 건물과 골목, 오래된 펍이 남아 있어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_%28AU%29%2C_The_Rocks%2C_George_Street_--_2019_--_3567.jpg/960px-Sydney_%28AU%29%2C_The_Rocks%2C_George_Street_--_2019_--_3567.jpg",
+      credit: "사진: Dietmar Rabich, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "opera",
@@ -237,7 +240,8 @@ self.TRIP = {
       en: "Sydney Opera House",
       type: "명소",
       desc: "들어가지 않고 바깥을 한 바퀴 걸어요. 지붕 타일을 가까이서 보면 흰색과 미색 두 가지가 섞여 있어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/960px-Sydney_Opera_House_-_Dec_2008.jpg",
+      credit: "사진: Diliff, CC BY-SA 3.0 / 위키미디어 커먼즈"
     },
     {
       id: "mrsmacquarie",
@@ -246,7 +250,8 @@ self.TRIP = {
       short: "오페라하우스 + 하버브리지가 한 프레임",
       type: "전망",
       desc: "로열 보타닉 가든 끝 바위 의자예요. 오페라하우스와 하버브리지가 한 사진에 담기는 자리예요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Amazing_sunset_view_from_Macquarie%27s_Chair.jpg/960px-Amazing_sunset_view_from_Macquarie%27s_Chair.jpg",
+      credit: "사진: Prajwal433, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "tapavino",
@@ -272,7 +277,7 @@ self.TRIP = {
       en: "Maybe Sammy Sydney",
       short: "세계 50대 바 단골. 워크인 전용",
       type: "바",
-      desc: "더 록스에 있는 칵테일 바예요. 세계 50대 바 리스트에 꾸준히 오르는 곳이에요. 예약 없이 줄 서서 들어가요. 첫날이라 여기까지만.",
+      desc: "더 록스에 있는 칵테일 바예요. 세계 50대 바 리스트에 꾸준히 오르는 곳이에요. 예약 없이 줄 서서 들어가요. 복장은 스마트 캐주얼. 첫날이라 여기까지만.",
       image: ""
     },
     {
@@ -282,7 +287,8 @@ self.TRIP = {
       short: "약 6km, 브론테·클로벨리 오션풀 경유",
       type: "산책",
       desc: "바닷가 절벽을 따라 걷는 약 6km 길이에요. 브론테, 클로벨리 오션풀을 지나 본다이에서 끝나요. 그늘이 거의 없어서 물과 선크림 필수예요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Bondi_coastal_walk_-_panoramio.jpg/960px-Bondi_coastal_walk_-_panoramio.jpg",
+      credit: "사진: Maurice van Creij, CC BY 3.0 / 위키미디어 커먼즈"
     },
     {
       id: "icebergspool",
@@ -290,7 +296,8 @@ self.TRIP = {
       en: "Bondi Icebergs Pool",
       type: "수영",
       desc: "파도가 넘어 들어오는 바닷물 수영장이에요. 유료. 목요일은 청소로 쉬어서 월요일에 넣었어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bondi_Icebergs_%285848281116%29.jpg/960px-Bondi_Icebergs_%285848281116%29.jpg",
+      credit: "사진: Alex Proimos, CC BY 2.0 / 위키미디어 커먼즈"
     },
     {
       id: "icebergs",
@@ -298,7 +305,7 @@ self.TRIP = {
       en: "Icebergs Dining Room and Bar Bondi",
       short: "오션풀 위 통유리 이탈리안. 예약",
       type: "식당",
-      desc: "오션풀 바로 위 통유리 레스토랑이에요. 1인 약 A$130~170. 창가 자리는 2~3주 전에 예약해요. 캐주얼 대안: North Bondi Fish (피시 타코, 사시미).",
+      desc: "오션풀 바로 위 통유리 레스토랑이에요. 1인 약 A$130~170. 실내는 스마트 캐주얼이라 수영 끝나면 옷 갈아입고 신발 신고 가요. 창가 자리는 2~3주 전에 예약해요. 캐주얼 대안: North Bondi Fish (피시 타코, 사시미).",
       image: "",
       menuTitle: "고를 때",
       menu: [
@@ -313,7 +320,8 @@ self.TRIP = {
       en: "Bondi Beach",
       type: "해변",
       desc: "시드니에서 가장 유명한 해변이에요. 빨강·노랑 깃발 사이에서만 수영해요 (안전요원 구역).",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg/960px-Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg",
+      credit: "사진: Dietmar Rabich, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "wans",
@@ -331,7 +339,8 @@ self.TRIP = {
       short: "2026년 1월 새로 연 남반구 최대 수산시장",
       type: "시장",
       desc: "2026년 1월 19일 새 건물로 문을 연 남반구 최대 수산시장이에요. 경매장을 위에서 구경할 수 있어요. 아침 7시부터 열어요. 할리부트는 호주에 없어서 흰살 회는 킹피시·플랫헤드·스내퍼로 먹어요. 라이트레일 L1 피시마켓역.",
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SydneyFishMarket2026.jpg/960px-SydneyFishMarket2026.jpg",
+      credit: "사진: ColonelLight, CC0 / 위키미디어 커먼즈",
       menuTitle: "먹을 것",
       menu: [
         { en: "Kingfish sashimi", ko: "킹피시 사시미", desc: "호주 대표 흰살 회. 방어와 비슷해요.", image: "" },
@@ -351,7 +360,7 @@ self.TRIP = {
       image: "",
       menuTitle: "추천",
       menu: [
-        { en: "Char kway teow", ko: "차퀘이테우", desc: "불맛 나는 납작 쌀국수 볶음이에요.", image: "" }
+        { en: "Char kway teow", ko: "차퀘이테우", desc: "불맛 나는 납작 쌀국수 볶음이에요.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Charkwayteow.JPG/960px-Charkwayteow.JPG", credit: "사진: Chen Siyuan, 퍼블릭 도메인 / 위키미디어 커먼즈" }
       ]
     },
     {
@@ -360,7 +369,8 @@ self.TRIP = {
       en: "Barangaroo Reserve",
       type: "산책",
       desc: "피어몬트에서 하버를 따라 바랑가루까지 걸어요. 새로 정비된 물가 공원이에요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Barangaroo_Reserve_View1_201708.jpg/960px-Barangaroo_Reserve_View1_201708.jpg",
+      credit: "사진: Wpcpey, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "artgallery",
@@ -368,8 +378,17 @@ self.TRIP = {
       en: "Art Gallery of New South Wales",
       short: "신관 시드니 모던. 상설 무료",
       type: "미술관",
-      desc: "본관과 2022년에 연 신관(시드니 모던)이 있어요. 상설 전시는 무료예요. 신관 테라스에서 울루물루 바다가 보여요.",
-      image: ""
+      desc: "상설 전시는 무료예요. 2022년에 연 신관(시드니 모던)과 1909년 본관이 정원으로 이어져 있어요. 하이라이트는 메뉴를 펼쳐 보세요. 신관 테라스에서 울루물루 바다가 보여요.",
+      menuTitle: "하이라이트",
+      menu: [
+        { en: "Sydney Modern building", ko: "신관 건물 자체", desc: "프리츠커상을 받은 일본 건축사무소 SANAA 설계. 유리 상자들이 계단처럼 바다 쪽으로 내려가요.", image: "" },
+        { en: "The Tank", ko: "더 탱크", desc: "신관 지하, 2차 세계대전 때 해군 연료 탱크를 개조한 전시장. 기둥 숲 같은 어두운 공간이 볼거리예요. 전시는 계속 바뀌니 그때 뭐 하는지 확인.", image: "" },
+        { en: "Yiribana Gallery", ko: "이리바나 갤러리", desc: "신관 입구층, 호주 원주민·토레스 해협 섬 주민 미술 전용관. 호주에서만 제대로 볼 수 있는 컬렉션이에요.", image: "" },
+        { en: "Flowers that Bloom in the Cosmos", ko: "쿠사마 야요이, 우주에 피는 꽃", desc: "신관 바깥 울루물루 쪽에 있는 스테인리스 꽃 조형물. 사진 포인트.", image: "" },
+        { en: "Grand Courts", ko: "본관 그랜드 코트", desc: "본관 1층, 19세기 호주·유럽 회화가 걸린 옛 전시실. 신관과 분위기가 정반대예요.", image: "" }
+      ],
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydney_%28AU%29%2C_Art_Gallery_of_New_South_Wales_--_2019_--_3103.jpg/960px-Sydney_%28AU%29%2C_Art_Gallery_of_New_South_Wales_--_2019_--_3103.jpg",
+      credit: "사진: Dietmar Rabich, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "hernandez",
@@ -402,7 +421,8 @@ self.TRIP = {
       short: "캥거루 먹이주기 · 쿼카",
       type: "동물원",
       desc: "캥거루·왈라비 구역에 들어가 직접 먹이를 줄 수 있어요 (먹이 컵 유료). 코알라도 있어요. 쿼카 인카운터는 유료 사전 예약이고 세션당 인원 제한이 있어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Featherdale_wallabies_having_breakfast.jpg/960px-Featherdale_wallabies_having_breakfast.jpg",
+      credit: "사진: Ypsilon from Finland, CC0 / 위키미디어 커먼즈"
     },
     {
       id: "echopoint",
@@ -410,7 +430,8 @@ self.TRIP = {
       en: "Echo Point Lookout Katoomba",
       type: "전망",
       desc: "블루마운틴의 대표 전망대예요. 세 자매봉 바위가 정면에 보여요. 여름 폭염·산불 경보 때는 길이 닫힐 수 있어요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Three_sisters_z_Echo_Point_-_panoramio.jpg/960px-Three_sisters_z_Echo_Point_-_panoramio.jpg",
+      credit: "사진: Pavel Špindler, CC BY 3.0 / 위키미디어 커먼즈"
     },
     {
       id: "ayamgoreng",
@@ -422,7 +443,7 @@ self.TRIP = {
       image: "",
       menuTitle: "추천",
       menu: [
-        { en: "Ayam goreng", ko: "아얌 고렝", desc: "양념 프라이드치킨이에요. 가게 이름이 이 메뉴예요.", image: "" },
+        { en: "Ayam goreng", ko: "아얌 고렝", desc: "양념 프라이드치킨이에요. 가게 이름이 이 메뉴예요.", image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ayam_goreng_%282%29.JPG", credit: "사진: Wagino 20100516, CC BY-SA 3.0 / 위키미디어 커먼즈" },
         { en: "Sambal", ko: "삼발", desc: "매운 양념장. 조금씩 찍어요.", image: "" }
       ]
     },
@@ -449,7 +470,8 @@ self.TRIP = {
       en: "Shelly Beach Manly",
       type: "스노클",
       desc: "해양보호구역이라 물고기가 많고 파도가 잔잔해요. 맨리 해변 끝에서 걸어서 10~15분. 장비는 근처에서 빌려요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Shelly_Beach_in_Manly_Sydney_Australia.jpg/960px-Shelly_Beach_in_Manly_Sydney_Australia.jpg",
+      credit: "사진: Hardlinerr, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "manly",
@@ -457,7 +479,8 @@ self.TRIP = {
       en: "The Corso Manly",
       type: "거리",
       desc: "페리 부두에서 맨리 해변까지 이어지는 보행자 거리예요. 점심은 여기서.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Corso_Manly_2011.jpg/960px-The_Corso_Manly_2011.jpg",
+      credit: "사진: Terrazzo, CC BY 2.0 / 위키미디어 커먼즈"
     },
     {
       id: "lheritage",
@@ -469,7 +492,7 @@ self.TRIP = {
       image: "",
       menuTitle: "추천",
       menu: [
-        { en: "Bouillabaisse", ko: "부야베스", desc: "마르세유식 해산물 스튜.", image: "" },
+        { en: "Bouillabaisse", ko: "부야베스", desc: "마르세유식 해산물 스튜.", image: "https://upload.wikimedia.org/wikipedia/commons/2/24/Bullabessa.jpg", credit: "사진: Slastic, CC BY 3.0 / 위키미디어 커먼즈" },
         { en: "Dry-aged steak", ko: "드라이에이징 스테이크", desc: "", image: "" }
       ]
     },
@@ -479,7 +502,8 @@ self.TRIP = {
       en: "Oxford Street Paddington",
       type: "쇼핑",
       desc: "편집숍과 호주 디자이너 매장이 모여 있는 거리예요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Oxford_Street_Paddington_NSW.jpg/960px-Oxford_Street_Paddington_NSW.jpg",
+      credit: "사진: Iantomferry, CC BY 3.0 / 위키미디어 커먼즈"
     },
     {
       id: "operabar",
@@ -488,7 +512,8 @@ self.TRIP = {
       short: "하버 일몰 + 로제",
       type: "바",
       desc: "오페라하우스 아래층 야외 바예요. 하버브리지 쪽으로 해가 져요.",
-      image: ""
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Opera_Bar_01.jpg/960px-Opera_Bar_01.jpg",
+      credit: "사진: Chris.sherlock2, CC BY-SA 4.0 / 위키미디어 커먼즈"
     },
     {
       id: "hojiak",
@@ -500,9 +525,9 @@ self.TRIP = {
       image: "",
       menuTitle: "추천",
       menu: [
-        { en: "Nasi lemak", ko: "나시르막", desc: "코코넛 밥에 삼발·치킨을 곁들인 말레이시아 국민 음식.", image: "" },
-        { en: "Char kway teow", ko: "차퀘이테우", desc: "불맛 쌀국수 볶음.", image: "" },
-        { en: "Curry laksa", ko: "커리 락사", desc: "코코넛 커리 국수.", image: "" },
+        { en: "Nasi lemak", ko: "나시르막", desc: "코코넛 밥에 삼발·치킨을 곁들인 말레이시아 국민 음식.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Nasi_Lemak%2C_Mamak%2C_Sydney.jpg/960px-Nasi_Lemak%2C_Mamak%2C_Sydney.jpg", credit: "사진: Mw12310, CC BY-SA 3.0 / 위키미디어 커먼즈" },
+        { en: "Char kway teow", ko: "차퀘이테우", desc: "불맛 쌀국수 볶음.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Charkwayteow.JPG/960px-Charkwayteow.JPG", credit: "사진: Chen Siyuan, 퍼블릭 도메인 / 위키미디어 커먼즈" },
+        { en: "Curry laksa", ko: "커리 락사", desc: "코코넛 커리 국수.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Curry_Mee_at_Sister_Curry_Mee_in_Penang.jpg/960px-Curry_Mee_at_Sister_Curry_Mee_in_Penang.jpg", credit: "사진: JB Macatulad, CC BY-SA 4.0 / 위키미디어 커먼즈" },
         { en: "Mild, please", ko: "순하게 해 주세요", desc: "", image: "" }
       ]
     },
@@ -595,6 +620,7 @@ self.TRIP = {
     "일요일·공휴일엔 식당에서 10~15% 할증이 붙기도 해요. 카드 수수료와는 별개예요.",
     "카드 단말기에서 원화(KRW)로 결제할지 물으면 꼭 호주달러(AUD)를 골라요.",
     "팁은 의무가 아니에요. 아주 좋았을 때만 10% 정도.",
+    "복장: 정장은 필요 없고 스마트 캐주얼(셔츠·깔끔한 바지·운동화나 구두)이면 돼요. 저녁 바·레스토랑은 쪼리(호주말로 thongs), 민소매, 운동복은 입장을 막기도 해요.",
     "식당에서 수돗물(tap water)은 무료로 줘요. 그냥 마셔도 돼요.",
     "기차·버스·페리·라이트레일 모두 신용카드나 휴대폰 탭으로 타요. 타고 내릴 때 둘 다 탭.",
     "해변은 빨강·노랑 깃발 사이(안전요원 구역)에서만 수영해요. 이안류가 강해요.",
