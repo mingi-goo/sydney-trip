@@ -118,16 +118,12 @@ self.TRIP = {
       note: "동부 해안 · 그늘이 거의 없어요",
       items: [
         { time: "07:30", title: "숙소 출발 (더위 전에 걷기)", place: "stay", gather: "숙소 앞" },
-        { time: "08:30", end: "11:00", title: "해안길 걷기: 쿠지 → 본다이 (약 6km)", place: "coastalwalk" },
-        { time: "11:15", title: "본다이 아이스버그 오션풀 수영", place: "icebergspool" },
+        { time: "08:30", end: "11:00", title: "해안길 걷기: 쿠지 → 본다이 (약 6km)", place: ["coastalwalk", "watsons"], alt: ["반만 걷기: 본다이 → 브론테 2.5km (40~50분)", "왓슨스 베이: 페리 + 피시앤칩스 + 더 갭 절벽 전망대 (거의 안 걸어요)", "하버 일몰 세일링·카약 (가격·일정 확인 필요)"] },
+        { time: "11:15", title: "본다이 아이스버그 오션풀 수영", place: "icebergspool", alt: ["수영 대신 본다이 해변에서 파라솔 펴고 쉬기"] },
         { time: "13:00", title: "점심: Icebergs Dining Room", place: "icebergs" },
         { time: "15:00", title: "본다이 해변에서 쉬기", place: "bondi" },
         { time: "17:30", title: "숙소 복귀 · 샤워", place: "stay" },
-        { time: "19:30", title: "저녁: Wan's Cantonese (광둥 요리)", place: "wans" },
-        { time: null, timeLabel: "대안", title: "해안길 반만: 본다이 → 브론테 2.5km (40~50분)", place: "coastalwalk" },
-        { time: null, timeLabel: "대안", title: "왓슨스 베이: 페리 + 피시앤칩스 + 더 갭 절벽 전망대 (거의 안 걸어요)", place: "watsons" },
-        { time: null, timeLabel: "대안", title: "본다이나 맨리 해변에서 그냥 쉬기 · 수영은 선택", place: "bondi" },
-        { time: null, timeLabel: "대안", title: "하버 일몰 세일링 · 카약 (가격·일정 확인 필요)", place: "" }
+        { time: "19:30", title: "저녁: Wan's Cantonese (광둥 요리)", place: "wans" }
       ]
     },
     {
@@ -149,17 +145,13 @@ self.TRIP = {
       label: "4일차",
       note: "동물원 + 블루마운틴 · 하루 종일 기차",
       items: [
-        { time: "07:30", title: "센트럴역 → 블랙타운 기차 → 버스", place: "", gather: "숙소 앞" },
-        { time: "08:30", end: "10:30", title: "페더데일 야생동물공원: 캥거루 먹이주기 · 쿼카", place: "featherdale" },
+        { time: "07:30", title: "센트럴역 → 블랙타운 기차 → 버스", place: "", gather: "숙소 앞", alt: ["페더데일 + 블루마운틴 묶음 당일 투어 (운전·환승 걱정 없음)", "렌터카 (자유롭지만 좌측통행, 편도 2시간 혼자 운전)"] },
+        { time: "08:30", end: "10:30", title: "페더데일 야생동물공원: 캥거루 먹이주기 · 쿼카", place: ["featherdale", "taronga"], alt: ["타롱가 동물원 (서큘러키에서 페리). 캥거루 먹이주기는 없어요"] },
         { time: "11:00", title: "블랙타운 → 카툼바 기차", place: "" },
         { time: "12:30", title: "점심: 카툼바", place: "" },
-        { time: "13:30", end: "16:00", title: "에코포인트 (세 자매봉) + 클리프 워크", place: "echopoint" },
+        { time: "13:30", end: "16:00", title: "에코포인트 (세 자매봉) + 클리프 워크", place: "echopoint", alt: ["블루마운틴 빼고 쉬는 날 · 쇼핑 · 브런치"] },
         { time: "16:30", title: "루라 마을 → 기차로 복귀", place: "" },
-        { time: "19:00", title: "저녁: 숙소 근처 킹스포드 인도네시아 (Ayam Goreng 99)", place: ["ayamgoreng", "sedaprasa"] },
-        { time: null, timeLabel: "대안", title: "페더데일 + 블루마운틴 묶음 당일 투어 (운전·환승 걱정 없음)", place: "" },
-        { time: null, timeLabel: "대안", title: "렌터카 (자유롭지만 좌측통행, 편도 2시간)", place: "" },
-        { time: null, timeLabel: "대안", title: "타롱가 동물원만 (서큘러키에서 페리) + 오후 시내 휴식", place: "taronga" },
-        { time: null, timeLabel: "대안", title: "통째로 빼고 쉬는 날 · 쇼핑 · 브런치", place: "" }
+        { time: "19:00", title: "저녁: 숙소 근처 킹스포드 인도네시아 (Ayam Goreng 99)", place: ["ayamgoreng", "sedaprasa"] }
       ]
     },
     {

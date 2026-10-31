@@ -328,6 +328,7 @@
           '<p class="eyebrow accent">지금</p>' +
           '<h1 class="now-title">' + esc(s.current.item.title) + "</h1>" +
           '<p class="now-time">' + timeText(s.current) + "</p>" +
+          ((s.current.item.alt || []).length ? '<ul class="plain-list now-alt">' + s.current.item.alt.map(function (x) { return "<li>대안 · " + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
           (ids.length ? '<div class="btn-row"><button type="button" class="btn primary" data-goplace="' + esc(ids.join(",")) + '">장소 보기</button></div>' : "") +
           "</section>";
       } else if (s.moving) {
@@ -390,7 +391,8 @@
         var inner =
           '<span class="slot-time">' + time + "</span>" +
           '<span class="slot-title">' + (tags ? tags + "<br>" : "") + esc(it.title) +
-          shorts.map(function (x) { return '<span class="slot-desc">' + esc(x) + "</span>"; }).join("") + "</span>" +
+          shorts.map(function (x) { return '<span class="slot-desc">' + esc(x) + "</span>"; }).join("") +
+          (it.alt || []).map(function (x) { return '<span class="slot-desc slot-alt">대안 · ' + esc(x) + "</span>"; }).join("") + "</span>" +
           '<span class="slot-go" aria-hidden="true">' + (ids.length ? "›" : "") + "</span>" +
           (pic ? '<img class="slot-photo" src="' + esc(pic.image) + '" alt="' + esc(pic.name) + '" loading="lazy" onerror="this.remove()">' : "");
         html += ids.length
