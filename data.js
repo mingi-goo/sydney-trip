@@ -123,7 +123,11 @@ self.TRIP = {
         { time: "13:00", title: "점심: Icebergs Dining Room", place: "icebergs" },
         { time: "15:00", title: "본다이 해변에서 쉬기", place: "bondi" },
         { time: "17:30", title: "숙소 복귀 · 샤워", place: "stay" },
-        { time: "19:30", title: "저녁: Wan's Cantonese (광둥 요리)", place: "wans" }
+        { time: "19:30", title: "저녁: Wan's Cantonese (광둥 요리)", place: "wans" },
+        { time: null, timeLabel: "대안", title: "해안길 반만: 본다이 → 브론테 2.5km (40~50분)", place: "coastalwalk" },
+        { time: null, timeLabel: "대안", title: "왓슨스 베이: 페리 + 피시앤칩스 + 더 갭 절벽 전망대 (거의 안 걸어요)", place: "watsons" },
+        { time: null, timeLabel: "대안", title: "본다이나 맨리 해변에서 그냥 쉬기 · 수영은 선택", place: "bondi" },
+        { time: null, timeLabel: "대안", title: "하버 일몰 세일링 · 카약 (가격·일정 확인 필요)", place: "" }
       ]
     },
     {
@@ -151,7 +155,11 @@ self.TRIP = {
         { time: "12:30", title: "점심: 카툼바", place: "" },
         { time: "13:30", end: "16:00", title: "에코포인트 (세 자매봉) + 클리프 워크", place: "echopoint" },
         { time: "16:30", title: "루라 마을 → 기차로 복귀", place: "" },
-        { time: "19:00", title: "저녁: 숙소 근처 킹스포드 인도네시아 (Ayam Goreng 99)", place: ["ayamgoreng", "sedaprasa"] }
+        { time: "19:00", title: "저녁: 숙소 근처 킹스포드 인도네시아 (Ayam Goreng 99)", place: ["ayamgoreng", "sedaprasa"] },
+        { time: null, timeLabel: "대안", title: "페더데일 + 블루마운틴 묶음 당일 투어 (운전·환승 걱정 없음)", place: "" },
+        { time: null, timeLabel: "대안", title: "렌터카 (자유롭지만 좌측통행, 편도 2시간)", place: "" },
+        { time: null, timeLabel: "대안", title: "타롱가 동물원만 (서큘러키에서 페리) + 오후 시내 휴식", place: "taronga" },
+        { time: null, timeLabel: "대안", title: "통째로 빼고 쉬는 날 · 쇼핑 · 브런치", place: "" }
       ]
     },
     {
@@ -362,6 +370,24 @@ self.TRIP = {
       menu: [
         { en: "Char kway teow", ko: "차퀘이테우", desc: "불맛 나는 납작 쌀국수 볶음이에요.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Charkwayteow.JPG/960px-Charkwayteow.JPG", credit: "사진: Chen Siyuan, 퍼블릭 도메인 / 위키미디어 커먼즈" }
       ]
+    },
+    {
+      id: "watsons",
+      name: "왓슨스 베이 (대안)",
+      en: "Watsons Bay Sydney",
+      short: "페리로 가는 바닷가 마을 + 절벽 전망대",
+      type: "바다",
+      desc: "서큘러키에서 페리로 가는 하버 입구의 작은 마을이에요. 물가에서 피시앤칩스를 먹고, '더 갭' 절벽 전망대까지 10분만 걸으면 태평양이 내려다보여요.",
+      image: ""
+    },
+    {
+      id: "taronga",
+      name: "타롱가 동물원 (대안)",
+      en: "Taronga Zoo Sydney",
+      short: "페리로 가는 하버 언덕 동물원",
+      type: "동물원",
+      desc: "서큘러키에서 페리로 12분 정도예요. 기린 뒤로 시내 스카이라인이 보이는 게 유명해요. 페더데일처럼 캥거루에게 직접 먹이를 주는 곳은 아니에요.",
+      image: ""
     },
     {
       id: "barangaroo",
