@@ -245,7 +245,23 @@
     if (!A) return "";
     return (
       '<section class="card map-card"><p class="eyebrow">' + esc(A.title) + "</p>" +
-      '<p class="map-note" style="margin-top:4px">' + esc(A.body) + "</p>" +
+      (A.image ? '<img class="map-img" src="' + esc(A.image) + '" width="440" height="691" alt="' + esc(A.alt || A.title) + '">' : "") +
+      '<p class="map-note">' + esc(A.body) + "</p>" +
+      "</section>"
+    );
+  }
+
+  // ───────── 동네 한눈에 (data.js의 areas) ─────────
+  function areasCard() {
+    var A = T.areas;
+    if (!A) return "";
+    return (
+      '<section class="card map-card"><p class="eyebrow">' + esc(A.title) + "</p>" +
+      (A.intro ? '<p class="map-note" style="margin:4px 0 12px">' + esc(A.intro) + "</p>" : "") +
+      '<img class="map-img" src="' + esc(A.image) + '" width="400" height="524" alt="' + esc(A.title) + ' 지도">' +
+      '<ol class="area-list">' + A.items.map(function (x) {
+        return '<li><span class="area-n' + (x.stay ? " stay" : "") + '">' + esc(x.n) + '</span><div><p class="area-name">' + esc(x.name) + '</p><p class="area-desc">' + esc(x.desc) + "</p></div></li>";
+      }).join("") + "</ol>" +
       "</section>"
     );
   }
@@ -309,7 +325,7 @@
             '<span class="kv-sub">' + txt(T.returnFlight.meet) + "</span></dd>"
           : "") +
         "</dl></section>" +
-        mapCard() +
+        mapCard() + areasCard() +
         weatherCard(t, "before") +
         '<section class="card"><p class="eyebrow">준비물</p><ul class="plain-list">' +
         T.checklist.map(function (x) { return "<li>" + txt(x) + "</li>"; }).join("") +
@@ -356,7 +372,7 @@
           '<p class="gather-time">' + relDay(s.gather.start, t) + " " + timeText(s.gather) + "</p>" +
           '<p class="gather-place">' + txt(s.gather.item.gather) + "</p></section>";
       }
-      html += weatherCard(t, "during") + mapCard();
+      html += weatherCard(t, "during") + mapCard() + areasCard();
     }
     $("#tab-now").innerHTML = html;
     if (s.mode !== "after") loadWeather();

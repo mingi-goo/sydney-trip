@@ -428,3 +428,10 @@ button.slot:active { background: var(--press); }
 .phrase .say[lang="en"] { font-weight: 700; }
 .slot-alt { color: var(--brand); }
 .now-alt { margin-top: 12px; }
+.area-list { list-style: none; margin: 14px 0 0; padding: 0; }
+.area-list li { display: flex; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.area-list li:first-child { border-top: 0; }
+.area-n { flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--brand); color: #fff; font-size: 12px; font-weight: 800; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
+.area-n.stay { background: #E5484D; }
+.area-name { font-size: 16px; font-weight: 700; }
+.area-desc { font-size: 15px; color: var(--ink-2); line-height: 1.5; margin-top: 2px; }
